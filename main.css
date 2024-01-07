@@ -1,0 +1,119 @@
+body {
+    margin: 5px;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    
+    align-items: center;
+    background-color: green;
+    padding: 1rem 2rem;
+}
+
+.nav-logo {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    margin-left:40px;
+    margin-right:40px
+}
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+    
+}
+li a:hover {
+    color: #00ff99;
+}
+
+.nav-phone {
+    color: #00ff99;
+    text-decoration: none;
+    margin-left:880px
+}
+.imge1{
+    margin-left:90px
+}
+.imge2{
+    width:60%;
+    height: 602px;
+    background-color:green;
+    margin-left:300px;
+    display: inline-flex;
+    justify-content: space-between;
+   
+    
+    
+}
+.rrr{
+    background-color: blue ;
+    width:50px
+}
+.gridtext-center{
+    --bs-columns: 3;
+    margin:5px;
+    display: inline-flex;
+    width:60%;
+    height: 602px;
+    
+}
+.pp{
+    width:55px;
+    height: 602px;
+}
+.like {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: #ffffff;
+}
+ 
+.dislike {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #ffffff;
+}
+
+.carousel-item img {
+    height: 33rem;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-link:hover  {
+    color: rgb(0, 0, 0);
+}
+.row.my-4 {
+    margin-top: 1.5rem!important;
+    margin-bottom: 1.5rem!important;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    margin-left: 77px;
+    margin-right: 67px;
+    justify-content: center;
+
+
+}
+.alert.alert-success.mb-3{
+    display: none;
+}
+
+
+
+
+
+    
+       
